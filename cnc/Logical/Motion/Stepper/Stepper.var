@@ -1,0 +1,17 @@
+VAR
+	gAxisX_HW : SdcHwCfg_typ := (0);
+	gAxisX_DrvIf : SdcDrvIf16_typ := (0);
+	gAxisX_EncIf1 : SdcEncIf16_typ := (0);
+	gAxisX_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxisX_MotorStep0 : INT := (0);
+	gAxisY_HW : SdcHwCfg_typ := (0);
+	gAxisY_DrvIf : SdcDrvIf16_typ := (0);
+	gAxisY_EncIf1 : SdcEncIf16_typ := (0);
+	gAxisY_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxisY_MotorStep0 : INT := (0);
+	gAxisA_HW : SdcHwCfg_typ := (0);
+	gAxisA_DrvIf : SdcDrvIf16_typ := (0);
+	gAxisA_EncIf1 : SdcEncIf16_typ := (0);
+	gAxisA_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxisA_MotorStep0 : INT := (0);
+END_VAR

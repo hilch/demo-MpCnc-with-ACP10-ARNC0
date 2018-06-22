@@ -1,0 +1,26 @@
+VAR
+	Logger : LoggingType;
+	FileHandling : FileHandlingType;
+	AlarmHandling : AlarmHandlingType;
+	Cnc : ARRAY[0..MAX_CNC_MINUS_ONE] OF CncType;
+	n : UINT;
+END_VAR
+VAR CONSTANT
+	MAX_AXES_MINUS_ONE : USINT := MAX_AXES-1;
+	MAX_AXES : USINT := 3;
+	MAX_CNC : USINT := 1;
+	MAX_CNC_MINUS_ONE : USINT := MAX_CNC-1;
+END_VAR
+VAR
+	Axis : ARRAY[0..MAX_AXES_MINUS_ONE] OF AxisType;
+END_VAR
+VAR CONSTANT
+	W_AXES_READY : UINT := 0;
+	W_POWER_ON : UINT := 10;
+	W_AXES_HOMED : UINT := 20;
+	W_COMMAND : UINT := 100;
+END_VAR
+VAR
+	cnc : REFERENCE TO CncType;
+	statusFlags : UDINT;
+END_VAR

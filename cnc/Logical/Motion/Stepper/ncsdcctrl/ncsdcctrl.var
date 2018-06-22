@@ -1,0 +1,5 @@
+VAR
+	gAxisY_oSetPosOld : INT := 0;
+	gAxisX_oSetPosOld : INT := 0;
+	gAxisA_oSetPosOld : INT := 0;
+END_VAR

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gCncFileManagerUI" Type="mpfilemanagerui">
+    <Group ID="FileMan">
+      <Group ID="CustomizedFileType">
+        <Property ID="[0]" Value="cnc" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

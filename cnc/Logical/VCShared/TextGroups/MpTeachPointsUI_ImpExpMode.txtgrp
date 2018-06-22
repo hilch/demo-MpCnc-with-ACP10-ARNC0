@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.4.121 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpTeachPointsUI_ImpExpMode">
+  <Property Name="Description" Value="Text for import / export option  drop down menu"/>
+  <Property Name="Index" Value="2012"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="133748" Value="Only points"/>
+    <Text ID="133749" Value="All"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="133748" Value="Nur Punkte"/>
+    <Text ID="133749" Value="Alle Informationen"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="133748" Value="0"/>
+    <Index ID="133749" Value="1"/>
+  </IndexMap>
+</TextGroup>

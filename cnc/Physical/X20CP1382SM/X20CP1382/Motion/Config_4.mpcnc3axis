@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gMpCnc1" Type="mpcnc3axis">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="AxisX" Value="gMpAxisX" />
+        <Property ID="AxisY" Value="gMpAxisY" />
+        <Property ID="AxisZ" Value="gMpAxisA" />
+      </Group>
+    </Group>
+    <Group ID="Cnc">
+      <Property ID="CncName" Value="CNC1" />
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX">
+      <Group ID="mapp.AlarmX.Core.Configuration">
+        <Group ID="[0]">
+          <Property ID="Code" Value="1001" />
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Code" Value="1002" />
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Code" Value="1003" />
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Code" Value="1004" />
+        </Group>
+        <Group ID="[4]">
+          <Property ID="Code" Value="1005" />
+        </Group>
+        <Group ID="[5]">
+          <Property ID="Code" Value="1006" />
+        </Group>
+        <Group ID="[6]">
+          <Property ID="Code" Value="1007" />
+        </Group>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.4.121 SP?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20BM15" Type="X20BM15" Version="1.0.1.0">
+    <Connection Connector="X2X1" TargetModule="X20CP1382" TargetConnector="IF6" NodeNumber="1" />
+  </Module>
+  <Module Name="X20BM15a" Type="X20BM15" Version="1.0.1.0">
+    <Connection Connector="X2X1" TargetModule="X20BM15" TargetConnector="X2X2" NodeNumber="2" />
+  </Module>
+  <Module Name="X20BM15b" Type="X20BM15" Version="1.0.1.0">
+    <Connection Connector="X2X1" TargetModule="X20BM15a" TargetConnector="X2X2" NodeNumber="3" />
+  </Module>
+  <Module Name="X20CP1382" Type="X20CP1382" Version="1.6.1.0">
+    <Module Name="X1" Type="X1" Virtual="true" Version="1.6.1.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1382" TargetConnector="X1" />
+    </Module>
+    <Module Name="X2" Type="X2" Virtual="true" Version="1.6.1.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F1" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1382" TargetConnector="X2" />
+    </Module>
+    <Module Name="X3" Type="X3" Virtual="true" Version="1.6.1.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F2" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1382" TargetConnector="X3" />
+    </Module>
+    <Connection Connector="X1" TargetModule="X1" TargetConnector="SL" />
+    <Connection Connector="X2" TargetModule="X2" TargetConnector="SL" />
+    <Connection Connector="X3" TargetModule="X3" TargetConnector="SL" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="Mode" Value="Manual" />
+      <Parameter ID="InternetAddress" Value="192.168.0.1" />
+      <Parameter ID="SubnetMask" Value="255.255.255.0" />
+      <Parameter ID="InaNodeNumber" Value="0" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncRefreshRate1" Value="200" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="CycleTime" Value="2000" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="cnc_X20CP1382SM" />
+    <Parameter ID="UserPartitionSize" Value="500" />
+    <Parameter ID="Simulation" Value="1" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="X20CP1382.IF3" />
+    <Parameter ID="TaskClassIdleTime" Value="4000" />
+    <Parameter ID="Cyclic1Duration" Value="4000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="CNC_PrgDir" />
+    <Parameter ID="FileDevicePath1" Value="F:\CNC_PrgDir\" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="ich" />
+    <Parameter ID="FtpUserPassword1" Value="0jkekh+UYz/SowwWBzua0G3yXD3GBpeVHnITZJiG9J0=" />
+    <Parameter ID="FtpUserSalt1" Value="4HMg2Zqv" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+  </Module>
+  <Module Name="X20SM1426_A" Type="X20SM1426" Version="1.5.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12b" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM15b" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RatedCurrent" Value="50" />
+    <Parameter ID="MaximumCurrent" Value="50" />
+    <Parameter ID="LatchSync" Value="Stepper latch value synchron (AB/R latch value asynchron)" />
+    <Parameter ID="SM_SCALE_LOAD_UNITS_r1" Value="36000" />
+    <Parameter ID="SCALE_ENCOD_INCR_r1" Value="51200" />
+    <Parameter ID="CNC_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+  </Module>
+  <Module Name="X20SM1426_X" Type="X20SM1426" Version="1.5.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM15" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RatedCurrent" Value="50" />
+    <Parameter ID="MaximumCurrent" Value="50" />
+    <Parameter ID="LatchSync" Value="Stepper latch value synchron (AB/R latch value asynchron)" />
+    <Parameter ID="SM_SCALE_LOAD_UNITS_r1" Value="200" />
+    <Parameter ID="SCALE_ENCOD_INCR_r1" Value="51200" />
+    <Parameter ID="CNC_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+  </Module>
+  <Module Name="X20SM1426_Y" Type="X20SM1426" Version="1.5.1.1">
+    <Connection Connector="SS1" TargetModule="X20TB12a" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM15a" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RatedCurrent" Value="50" />
+    <Parameter ID="MaximumCurrent" Value="50" />
+    <Parameter ID="LatchSync" Value="Stepper latch value synchron (AB/R latch value asynchron)" />
+    <Parameter ID="SM_SCALE_LOAD_UNITS_r1" Value="200" />
+    <Parameter ID="SCALE_ENCOD_INCR_r1" Value="51200" />
+    <Parameter ID="CNC_r1" Value="on" />
+    <Parameter ID="BothEndSwitchesAreNormallyOpen_r1" Value="on" />
+    <Parameter ID="QuickStopIsNormallyOpen_r1" Value="on" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12a" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB12b" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20TB1F" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F1" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F2" Type="X20TB1F" Version="1.0.0.0" />
+</Hardware>

@@ -1,0 +1,8 @@
+VAR
+	gAxisX : ACP10AXIS_typ;
+	gAxisY : ACP10AXIS_typ;
+	gAxisA : ACP10AXIS_typ;
+	gCnc1 : MCAxesGroupType_Arnc := (0);
+	g_positionY : LREAL;
+	g_positionX : LREAL;
+END_VAR

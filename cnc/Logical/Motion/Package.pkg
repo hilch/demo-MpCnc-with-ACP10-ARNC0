@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.4.121 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Motion.var</Object>
+    <Object Type="Program" Language="IEC">Cnc</Object>
+    <Object Type="DataObject" Language="Cns">CncInit</Object>
+    <Object Type="Program" Language="IEC">MFunc</Object>
+    <Object Type="Package">Stepper</Object>
+    <Object Type="DataObject" Language="Ett">acp10etxen</Object>
+    <Object Type="DataObject" Language="Cnc">Micky</Object>
+  </Objects>
+</Package>

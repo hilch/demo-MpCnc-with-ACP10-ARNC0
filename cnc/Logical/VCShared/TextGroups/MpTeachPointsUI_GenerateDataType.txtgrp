@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.4.121 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpTeachPointsUI_GenerateDataType">
+  <Property Name="Description" Value="Text for generated program type  drop down menu"/>
+  <Property Name="Index" Value="2010"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="133740" Value="File"/>
+    <Text ID="133741" Value="Data object"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="133740" Value="Datei"/>
+    <Text ID="133741" Value="Daten Objekt"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="133740" Value="0"/>
+    <Index ID="133741" Value="1"/>
+  </IndexMap>
+</TextGroup>

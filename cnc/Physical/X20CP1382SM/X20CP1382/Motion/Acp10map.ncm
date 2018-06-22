@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.388?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="gAxisX" ModuleId="X20SM1426_X" ModuleAddress="SDC_IF1.ST1" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxisXi" AcoposParameter="gAxisXa" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisY" ModuleId="X20SM1426_Y" ModuleAddress="SDC_IF1.ST2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxisYi" AcoposParameter="gAxisYa" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="gAxisA" ModuleId="X20SM1426_A" ModuleAddress="SDC_IF1.ST3" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="gAxisAi" AcoposParameter="gAxisAa" AdditionalData="CNC_Enabled=&quot;1&quot;" Disabled="FALSE" ModuleDisabled="FALSE" />
+</NcMapping>

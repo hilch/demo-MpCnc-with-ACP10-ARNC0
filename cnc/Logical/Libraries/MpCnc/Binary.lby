@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.6.57 SP?>
+<Library Version="1.65.0" Description="CNC management" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>MpCnc.typ</File>
+    <File>MpCncError.typ</File>
+    <File>MpCncAlarm.typ</File>
+    <File>MpCnc.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="MpBase" FromVersion="5.02.0" ToVersion="5.02.9" />
+    <Dependency ObjectName="MpCom" />
+    <Dependency ObjectName="GmcManager" FromVersion="5.02.0" ToVersion="5.02.9" />
+    <Dependency ObjectName="GmcGrpAPI" FromVersion="5.02.0" ToVersion="5.02.9" />
+    <Dependency ObjectName="GmcArncGrp" FromVersion="5.02.0" ToVersion="5.02.9" />
+    <Dependency ObjectName="MpAxis" FromVersion="1.65.0" ToVersion="1.65.9" />
+    <Dependency ObjectName="Brsystem" />
+    <Dependency ObjectName="NcGlobal" FromVersion="5.02.0" ToVersion="5.02.9" />
+  </Dependencies>
+</Library>

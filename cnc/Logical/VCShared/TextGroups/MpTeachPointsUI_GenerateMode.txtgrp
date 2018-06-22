@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.4.121 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpTeachPointsUI_GenerateMode">
+  <Property Name="Description" Value="Text for generation mode drop down menu"/>
+  <Property Name="Index" Value="2011"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="133744" Value="Point list"/>
+    <Text ID="133745" Value="Program"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="133744" Value="Punktliste"/>
+    <Text ID="133745" Value="Programm"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="133744" Value="1"/>
+    <Index ID="133745" Value="0"/>
+  </IndexMap>
+</TextGroup>

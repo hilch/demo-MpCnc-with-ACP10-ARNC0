@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gMpAxisY" Type="mpaxisbasic">
+    <Selector ID="AxisConfiguration" Value="AxisWithConfiguration">
+      <Property ID="AxisName" Value="Y" />
+      <Group ID="Axis">
+        <Property ID="BaseType" Value="0" />
+        <Property ID="MeasurementUnit" Value="1" />
+        <Group ID="PeriodSettings">
+          <Property ID="Period" Value="0" />
+        </Group>
+        <Group ID="MovementLimits">
+          <Property ID="VelocityPositive" Value="8" />
+          <Property ID="VelocityNegative" Value="8" />
+          <Property ID="Acceleration" Value="50" />
+          <Property ID="Deceleration" Value="50" />
+        </Group>
+      </Group>
+      <Group ID="Drive">
+        <Group ID="Gearbox">
+          <Property ID="Output" Value="2" />
+        </Group>
+        <Group ID="Transformation">
+          <Property ID="ReferenceDistance" Value="1" />
+        </Group>
+        <Group ID="Controller">
+          <Group ID="LoopFilters">
+            <Selector ID="[0]" />
+            <Selector ID="[1]" />
+            <Selector ID="[2]" />
+          </Group>
+        </Group>
+      </Group>
+    </Selector>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+  <Element ID="gMpAxisX" Type="mpaxisbasic">
+    <Selector ID="AxisConfiguration" Value="AxisWithConfiguration">
+      <Property ID="AxisName" Value="X" />
+      <Group ID="Axis">
+        <Property ID="BaseType" Value="0" />
+        <Property ID="MeasurementUnit" Value="1" />
+        <Group ID="PeriodSettings">
+          <Property ID="Period" Value="0" />
+        </Group>
+        <Group ID="MovementLimits">
+          <Property ID="VelocityPositive" Value="8" />
+          <Property ID="VelocityNegative" Value="8" />
+          <Property ID="Acceleration" Value="50" />
+          <Property ID="Deceleration" Value="50" />
+        </Group>
+      </Group>
+      <Group ID="Drive">
+        <Group ID="Gearbox">
+          <Property ID="Output" Value="2" />
+        </Group>
+        <Group ID="Transformation">
+          <Property ID="ReferenceDistance" Value="1" />
+        </Group>
+        <Group ID="Controller">
+          <Group ID="LoopFilters">
+            <Selector ID="[0]" />
+            <Selector ID="[1]" />
+            <Selector ID="[2]" />
+          </Group>
+        </Group>
+      </Group>
+    </Selector>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+  <Element ID="gMpAxisA" Type="mpaxisbasic">
+    <Selector ID="AxisConfiguration" Value="AxisWithConfiguration">
+      <Property ID="AxisName" Value="A" />
+      <Group ID="Axis">
+        <Property ID="BaseType" Value="1" />
+        <Group ID="PeriodSettings">
+          <Property ID="Period" Value="0" />
+        </Group>
+        <Group ID="MovementLimits">
+          <Property ID="VelocityPositive" Value="90" />
+          <Property ID="VelocityNegative" Value="90" />
+          <Property ID="Acceleration" Value="100" />
+          <Property ID="Deceleration" Value="100" />
+        </Group>
+      </Group>
+      <Group ID="Drive">
+        <Group ID="Controller">
+          <Group ID="LoopFilters">
+            <Selector ID="[0]" />
+            <Selector ID="[1]" />
+            <Selector ID="[2]" />
+          </Group>
+        </Group>
+      </Group>
+    </Selector>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+</Configuration>
